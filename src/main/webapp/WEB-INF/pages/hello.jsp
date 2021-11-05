@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>spring-config-by-java</title>
 </head>
 <body>
-	<h3>Hello ${msg}</h3>
+	<h3>Hello1 ${country1.countryName}</h3>
+	<h3>Hello2 ${country3.countryName}</h3>
+	<h3>Hello3 ${student.getAddress().countryName}</h3>
 </body>
 </html>
